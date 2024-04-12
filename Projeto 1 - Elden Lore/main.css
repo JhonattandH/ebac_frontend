@@ -1,0 +1,157 @@
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "M PLUS 1 Code", monospace;
+    font-optical-sizing: auto;
+    font-weight: 250;
+    font-weight: 400;
+}
+
+header {
+    padding: 16px 0;
+    background-color: black;
+    color: #ecf0f1;
+}
+
+
+section {
+    padding: 24px 0;
+    font-size: 18px;
+}
+
+section h2 {
+    margin-bottom: 16px;
+}
+
+.container-header,
+.container-game {
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.container-header {
+    max-width: 1080px;
+    width: 100%;
+}
+
+header nav li {
+    display: inline;
+    margin: 0 16px;
+    font-size: 24px;
+}
+
+header nav li a {
+    color: #ecf0f1;
+    text-decoration: none;
+}
+
+.container-game {
+    max-width: 1300px;
+    width: 100%;
+}
+
+.jogo-img {
+    max-width: 700px;
+    margin-right: 18px;
+}
+
+.quote {
+    text-align: center;
+    margin: auto;
+    font-family: "Whisper", cursive;
+    font-weight: 400;
+    font-size: 28px;
+    margin-top: 8px;
+}
+
+.dlc-img {
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    width: 1300px;
+}
+
+.container-dlc,
+h2 {
+    display: flex;
+    max-width: 1300px;
+    width: 1300%;
+    margin: 10px auto;
+    align-items: flex-start;
+}
+
+.container-dlc-text {
+    width: 800px;
+}
+.dlc-trailer {
+    margin-top: 50px;
+}
+
+.container-bosses {
+    max-width: 1300px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.container-bosses article {
+    width: 400px;
+}
+
+.container-bosses h3 {
+    background-color: black;
+    color: #fff
+}
+
+.container-bosses img {
+    width: 400px;
+}
+
+.container-contact{
+    max-width: 1300px;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.container-contact h2 {
+    max-width: 1300px;
+    display: flex;
+    margin: 16px auto;
+}
+
+.container-contact p {
+    max-width: 300px;
+    margin-left: 30px;
+}
+.container-form {
+    max-width: 1300px;
+    display: flex;
+    align-items: flex-start;
+}
+
+form input,
+form textarea,
+form button {
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+form textarea {
+    resize: none;
+    margin-left: 16px;
+    width: 320px;
+    height: 167px;
+}
+
+footer {
+    max-width: 1300px;
+    width: 100%;
+    align-items: center;
+    margin: 0 auto;
+}
