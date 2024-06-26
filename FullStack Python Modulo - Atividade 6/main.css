@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+background-color: rgb(65, 68, 69);
+}
+
+.container{
+    margin: 80px auto;
+    max-width: 640px;
+    width: 100%;
+}
+
+h2, h3{
+    color: rgb(255, 255, 255);
+}
+
+form{
+    margin-top: 16px;
+}
+
+input, button{
+    display: block;
+    padding: 6px;    
+    width: 100%;
+    margin-bottom: 8px;
+    resize: none;}
+
+button{
+    background-color: rgb(53, 9, 228);
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: white;
+    color: rgb(53, 9, 228);
+}
+
+.mensagemsucesso{
+    background-color: rgb(6, 107, 240);
+    color: white;
+}
+.mensagemfracasso{
+    background-color: rgb(255, 0, 4);
+    color: white;
+    
+}
+input.error{
+    color:  red;
+    border-color: red;
+    outline-color: red;
+}
